@@ -3,8 +3,8 @@
 ### Install Dependencies
 
 ```bash
-https://github.com/Supun-01/Property-Management.git
-cd crud
+git clone "https://github.com/Supun-01/Test-Property-Management.git"
+cd property-management
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
