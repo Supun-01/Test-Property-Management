@@ -11,6 +11,7 @@ function AddProperty() {
         status: true,
         description: '',
         address: '',
+        location: { lat: 6.9271, lng: 79.8612 }
     });
 
     const handleSubmit = () => {

@@ -11,6 +11,7 @@ npx tailwindcss init -p
 npm i react-router-dom
 npm install react-icons --save
 npm install axios
+npm install react-leaflet leaflet
 ```
 
 ### API

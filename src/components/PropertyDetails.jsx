@@ -13,7 +13,7 @@ function PropertyDetails({ id, title, type, Purpose, Price, Satuts, Address, Des
                     <p><span className='font-semibold'>Type:</span> <span className='text-gray-800'>{type}</span></p>
                     <p><span className='font-semibold'>Purpose:</span> <span className='text-gray-800'>{Purpose}</span></p>
                     <p><span className='font-semibold'>Price:</span> <span className='text-gray-800'>{Price}</span></p>
-                    <p><span className='font-semibold'>Satuts:</span> <span className='text-gray-800'>{Satuts}</span></p>
+                    <p><span className='font-semibold'>Satuts:</span> <span className='text-gray-800'>{(Satuts) ? "Availble" : "Not-Availble"}</span></p>
                     <p><span className='font-semibold'>Address:</span> <span className='text-gray-800'>{Address}</span></p>
                     <p><span className='font-semibold'>Description:</span> <span className='text-gray-800'>{Description}</span></p>
                 </div>

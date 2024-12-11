@@ -13,7 +13,11 @@ function EditProperty() {
         price: '',
         status: true,
         description: '',
-        address: ''
+        address: '',
+        location: {
+            lat: '',
+            lng: ''
+        }
     });
 
     useEffect(() => {
